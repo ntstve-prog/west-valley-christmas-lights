@@ -5,11 +5,6 @@
 
 <header class="header">
   <div class="header-container">
-    <!-- Logo -->
-    <a href="/" class="logo-wrapper">
-      <img src="/logo.png" alt="West Valley Christmas Lights" class="logo-image" />
-    </a>
-
     <!-- CTA Section - Phone + Button -->
     <div class="header-cta">
       <!-- Hours Text -->
@@ -46,27 +41,11 @@
   .header-container {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 0 1rem;
+    padding: 0.5rem 1rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 1rem;
-  }
-
-  /* ===================================
-     LOGO
-     =================================== */
-  .logo-wrapper {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    flex-shrink: 0;
-  }
-
-  .logo-image {
-    width: 90px;
-    height: 90px;
-    object-fit: contain;
   }
 
   /* ===================================
@@ -151,13 +130,8 @@
   */
   @media (min-width: 768px) {
     .header-container {
-      padding: 0 1.5rem;
+      padding: 0.5rem 1.5rem;
       gap: 1.5rem;
-    }
-
-    .logo-image {
-      width: 100px;
-      height: 100px;
     }
 
     /* Adjust sizing */
@@ -190,13 +164,8 @@
   */
   @media (min-width: 1024px) {
     .header-container {
-      padding: 0 2rem;
+      padding: 0.5rem 2rem;
       gap: 2rem;
-    }
-
-    .logo-image {
-      width: 110px;
-      height: 110px;
     }
 
     .hours-text {
@@ -223,17 +192,12 @@
   */
   @media (min-width: 1280px) {
     .header-container {
-      padding: 0 2rem;
+      padding: 0.5rem 2rem;
       gap: 2.5rem;
     }
 
     .hours-text {
       font-size: 1.125rem;
-    }
-
-    .logo-image {
-      width: 120px;
-      height: 120px;
     }
 
     .header-cta {
