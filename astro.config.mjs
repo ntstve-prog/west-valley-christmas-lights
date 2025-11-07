@@ -4,6 +4,6 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://westvalleychristmaslightinstallation.com',
+  site: 'https://www.westvalleychristmaslightinstallation.com',
   integrations: [sitemap()],
 });
