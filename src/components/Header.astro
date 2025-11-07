@@ -12,9 +12,6 @@
 
     <!-- CTA Section - Phone + Button -->
     <div class="header-cta">
-      <!-- Hours Text -->
-      <div class="hours-text">Open 8am-6pm every day</div>
-
       <!-- Phone Link - Hidden on mobile, visible on tablet+ -->
       <a href="tel:6022078848" class="phone-link">
         <svg class="phone-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -68,20 +65,6 @@
     width: auto;
     object-fit: contain;
     margin: -0.5rem 0;
-  }
-
-  /* ===================================
-     HOURS TEXT
-     =================================== */
-  .hours-text {
-    font-family: Georgia, 'Times New Roman', serif;
-    font-size: 0.75rem; /* Reduced for mobile: 12px */
-    color: #16A34A;
-    font-weight: 600;
-    font-style: italic;
-    letter-spacing: 0.01em;
-    line-height: 1.1; /* Tighter line-height for mobile */
-    max-width: 4.75rem; /* Force wrapping to 2 lines: "Open 8am-6pm" / "every day" */
   }
 
   /* ===================================
@@ -161,14 +144,6 @@
       margin: -0.5rem 0;
     }
 
-    /* Adjust sizing */
-    .hours-text {
-      font-size: 0.9375rem;
-      max-width: none; /* Remove wrap constraint */
-      white-space: nowrap; /* Single line on tablet+ */
-      line-height: 1.2; /* Reset to normal */
-    }
-
     /* Show phone link */
     .phone-link {
       display: flex;
@@ -200,10 +175,6 @@
       margin: -0.5rem 0;
     }
 
-    .hours-text {
-      font-size: 1.0625rem;
-    }
-
     .header-cta {
       gap: 1.5rem;
     }
@@ -231,10 +202,6 @@
     .logo {
       height: 80px;
       margin: -0.5rem 0;
-    }
-
-    .hours-text {
-      font-size: 1.125rem;
     }
 
     .header-cta {
